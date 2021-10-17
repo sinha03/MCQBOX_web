@@ -1,0 +1,229 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src: url('quiz1/fonts/codropsicons/codropsicons.eot');
+	src: url('quiz1/fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+	 url('quiz1/fonts/codropsicons/codropsicons.woff') format('woff'),
+	  url('quiz1/fonts/codropsicons/codropsicons.ttf') format('truetype'), 
+	  url('quiz1/fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/*body {
+	font-family: 'Source Sans Pro', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #444;
+	background: #f6f6f6;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}*/
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+    background-color: #59DAA4;
+    z-index: 302;
+  }
+
+  #header .item {
+
+    padding: 0 23px
+  }
+  #header .bt-menu {
+    float: left;
+    min-width: 150px;
+    font-size: 60px;
+    font-weight: 700;
+  
+    color:#373F4C;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  }
+  #header .bt-menu .ico-menu{
+   
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  #header .menu {
+     margin-top:2px;
+     margin-left:17px;
+   text-transform: uppercase;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 6%;
+    width: 100%;
+    text-align: center;
+  
+}
+.overlay .back-logo{
+
+  margin-top:30px;
+  margin-left:25px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Walkway Black",sans-serif;
+    color: #f778ab;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.overlay1 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Walkway Black",sans-serif;
+    color: #f778ab;
+    display: block;
+    transition: 0.3s;
+}
+.overlay1 a:hover, .overlay1 a:focus {
+    color: #f1f1f1;
+}
+
+.overlay1 .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    font-size: 60px;
+}
+
+  #header .header-view{
+margin-left: 16%;
+
+
+  }
+.header-view{
+  overflow: hidden;
+ background-color: #59DAA4;
+float:left;
+
+}
+.header-view img{
+
+  height:50px;
+  width:90px;
+} 
+#header .navigation {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Avenir Next Regular",sans-serif;
+    background-color: #59DAA4;
+    text-align: center;
+    padding-left: 40%;
+    padding-top: 1.3%;  
+    }
+ #header .navigation .group.active {
+    display: block;
+    background-color: #59DAA4;
+}
+
+#header .navigation .group {
+    position: relative;
+}
+#header .navigation ul {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+  }
+/*#header  .navigation{
+ 
+    text-transform: uppercase;
+    font-size: 13px;
+    height:60px; 
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+   margin-left:7%;
+  overflow: hidden;
+ background-color: #59DAA4;
+}
+ .navigation .group.active {
+    display: block;
+    margin-top:20px;
+}
+
+ .navigation .group {
+    position: relative;
+}
+ .navigation ul {
+
+    padding-left: 0;
+    list-style: none;
+    margin-right: 2%;
+}*/
+ul {
+    margin-bottom: 10px;
+}
+ .navigation ul>li {
+    display: inline-block;
+    margin-left:2%;
+    font-weight: 550;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+/* .navigation a{
+    transition: color .3s cubic-bezier(.7,0,.3,1);
+    position: relative;
+    color: #fff;
+    letter-spacing: 1px;
+      
+    } 
+    
+.navigation a:hover{    
+ color:#f778ab; 
+    } */
+ #header .navigation a{
+       transition: color .3s cubic-bezier(.7,0,.3,1);
+    position: relative;
+    color: #373f4c;
+    letter-spacing: 1px;
+    display: block;   
+    }
+ a{
+      text-decoration: none;
+    }
+#header .navigation a:hover{    
+ color:#ffffff; 
+    } 
+
+
+
